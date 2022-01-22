@@ -96,41 +96,186 @@
 <h1>November 2021<a class="headerlink" href="#november-2021" title="Permalink to this headline"></a></h1>
 <section id="sun-21-nov-2021">
 <h2>Sun 21 Nov 2021<a class="headerlink" href="#sun-21-nov-2021" title="Permalink to this headline"></a></h2>
-<p>text here</p>
+<ul class="simple">
+<li><p>Accomplished</p>
+<ol class="simple">
+<li><p>Discussed the requirements with Joseph</p>
+<ul>
+<li><p>CopyClare is an online platform that allows people to follow rehabilitation videos for shoulders and elbows.</p></li>
+<li><p>The users can track their accuracy of the movements over time</p></li>
+<li><p>Users’ videos are uploaded to a secure server where the analysis will take place.</p></li>
+</ul>
+</li>
+<li><p>Submitted HCI materials by deadline (Nov 10th)</p>
+<ul>
+<li><p>Generated personas based on project requirements</p></li>
+<li><p>Draft Sketches for HCI, and got them reviewed by Joseph (to see if those were what he envisioned)</p></li>
+<li><p>Create a prototype</p></li>
+<li><p>Testing complete: Usability testing (with other students) and Heuristic evaluation</p></li>
+<li><p>Based on initial requirements, we our end product was a very brief prototype, which demonstrates the basic functionalities that the final CopyClare app should have</p></li>
+</ul>
+</li>
+<li><p>Independent Projects</p>
+<ul>
+<li><p>Based on the work required for MotionInput, our team had to lend a hand to improve MotionInput</p>
+<ul>
+<li><p>Sree - Testing to see if it is feasible to create React Native apps using MotionInput. Since there are different teams working on different builds of MotionInput (Android, MacOS,..), it makes sense to collaborate on a ReactNative version instead.</p></li>
+<li><p>Adi - Part of the architect team, working on general design of an updated MotionInput.</p></li>
+<li><p>Yan - Part of Exercises Module GUI Redesign team</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p>Goals for Next Week</p>
+<ol class="simple">
+<li><p>Independent Projects</p>
+<ul>
+<li><p>Sree - Identify the feasibility of a React Native implementation of MotionInput</p></li>
+<li><p>Adi - Plan out the architecture of the app.</p></li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p>Blockers</p>
+<ol class="simple">
+<li><p>None</p></li>
+</ol>
+</li>
+</ul>
 </section>
 </section>
 <section id="december-2021">
 <h1>December 2021<a class="headerlink" href="#december-2021" title="Permalink to this headline"></a></h1>
 <section id="sun-5-dec-2021">
 <h2>Sun 5 Dec 2021<a class="headerlink" href="#sun-5-dec-2021" title="Permalink to this headline"></a></h2>
-<p>text here</p>
+<ul class="simple">
+<li><p>Accomplished</p>
+<ol class="simple">
+<li><p>Reviewed the requirements with Joseph and Dean</p>
+<ul>
+<li><p>Dean had mentioned that we are not allowed to send users’ exercise videos to a service. We need to analyze the videos locally on the users’ machines</p></li>
+</ul>
+</li>
+<li><p>Independent Projects</p>
+<ul>
+<li><p>Sree - It is not feasible to implement MotionInput on React Native. This is because of 2 main reasons:</p>
+<ol class="simple">
+<li><p>MotionInput is very messy. Refactoring the whole code base is needed before further experimentation.</p></li>
+<li><p>MotionInput may be too heavy for React Native (Not tested). Because MotionInput relies on OpenCV and the frame rate may drop, the accuracy may not be good enough for any real application.</p></li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p>Goals for Next Week</p>
+<ol class="simple">
+<li><p>Get started with implementation of the project</p></li>
+<li><p>Finalise requirements with Joseph</p></li>
+</ol>
+</li>
+<li><p>Blockers</p>
+<ol class="simple">
+<li><p>MotionInput is not compiling properly. There are many errors for several members of the team.</p></li>
+</ol>
+</li>
+</ul>
 </section>
 <section id="sun-12-dec-2021">
 <h2>Sun 12 Dec 2021<a class="headerlink" href="#sun-12-dec-2021" title="Permalink to this headline"></a></h2>
-<p>text here</p>
+<ul class="simple">
+<li><p>Accomplished</p>
+<ol class="simple">
+<li><p>Finalised requirements with Joseph</p>
+<ul>
+<li><p>Must Have:</p>
+<ul>
+<li><p>CopyClare needs to enable users to view and replicate physiotherapy rehabilitation exercises</p></li>
+<li><p>We must give user feedback on compliance to the video during the exercise regime</p></li>
+<li><p>Compliance = how accurately users are doing the exercise</p></li>
+<li><p>Accuracy = Angles/Time</p></li>
+</ul>
+</li>
+<li><p>Should Have:</p>
+<ul>
+<li><p>Reports for progress over time</p></li>
+<li><p>Desktop Application</p></li>
+</ul>
+</li>
+<li><p>Could Have:</p>
+<ul>
+<li><p>Login/Register</p></li>
+<li><p>Users to be able to understand and receive feedback from clinicians about which videos use for therapy</p></li>
+<li><p>Web application</p></li>
+</ul>
+</li>
+<li><p>Nice to Have:</p>
+<ul>
+<li><p>Accessibility through eye-tracking and Ask-KITA</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Compilation was more difficult than expected. Since those are being fixed, no actual progress was made on building CopyClare</p></li>
+</ol>
+</li>
+<li><p>Goals for Next Week</p>
+<ol class="simple">
+<li><p>Research about using OpenCV and MediaPipe for video analysis</p></li>
+<li><p>Utilise OpenCV to create a POC of the CopyClare project</p></li>
+</ol>
+</li>
+<li><p>Blockers</p>
+<ol class="simple">
+<li><p>MotionInput is still not ready to use for development</p></li>
+</ol>
+</li>
+</ul>
 </section>
 <section id="sun-19-dec-2021">
 <h2>Sun 19 Dec 2021<a class="headerlink" href="#sun-19-dec-2021" title="Permalink to this headline"></a></h2>
-<p>text here</p>
+<ul class="simple">
+<li><p>Accomplished</p>
+<ol class="simple">
+<li><p>Due to end of term deadlines, no progress was made</p></li>
+</ol>
+</li>
+<li><p>Goals for Next Week</p></li>
+<li><p>Blockers</p></li>
+</ul>
 </section>
 </section>
 <section id="january-2022">
 <h1>January 2022<a class="headerlink" href="#january-2022" title="Permalink to this headline"></a></h1>
 <section id="sun-2-jan-2022">
 <h2>Sun 2 Jan 2022<a class="headerlink" href="#sun-2-jan-2022" title="Permalink to this headline"></a></h2>
-<p>text here</p>
+<ul class="simple">
+<li><p>Accomplished</p></li>
+<li><p>Goals for Next Week</p></li>
+<li><p>Blockers</p></li>
+</ul>
 </section>
 <section id="sun-16-jan-2022">
 <h2>Sun 16 Jan 2022<a class="headerlink" href="#sun-16-jan-2022" title="Permalink to this headline"></a></h2>
-<p>text here</p>
+<ul class="simple">
+<li><p>Accomplished</p></li>
+<li><p>Goals for Next Week</p></li>
+<li><p>Blockers</p></li>
+</ul>
 </section>
 <section id="nov-jan-progress-video-sat-22-jan-2022">
 <h2>Nov-Jan Progress Video (Sat 22 Jan 2022)<a class="headerlink" href="#nov-jan-progress-video-sat-22-jan-2022" title="Permalink to this headline"></a></h2>
-<p>link to youtube video here</p>
+<p>Video link: link to youtube video here</p>
 </section>
 <section id="sun-30-jan-2022">
 <h2>Sun 30 Jan 2022<a class="headerlink" href="#sun-30-jan-2022" title="Permalink to this headline"></a></h2>
-<p>text here</p>
+<ul class="simple">
+<li><p>Accomplished</p></li>
+<li><p>Goals for Next Week</p></li>
+<li><p>Blockers</p></li>
+</ul>
 </section>
 </section>
 
