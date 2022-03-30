@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
+<title>copyclare.data package | CopyClare  documentation</title>
+<link href="../_static/pygments.css" rel="stylesheet"/>
+<link href="../_static/theme.33684ae9923d01874503.css" rel="stylesheet"/>
+<link href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" rel="stylesheet"/>
+<link href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" rel="stylesheet"/>
+<link href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" rel="stylesheet"/>
+<link href="../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" rel="stylesheet"/>
+<link href="../_static/custom.css" rel="stylesheet"/>
+<link href="../search.html" rel="search" title="Search"/>
+<link href="../genindex.html" rel="index" title="Index"/>
+<link href="copyclare.data.objects.html" rel="next" title="copyclare.data.objects package"/>
+<link href="copyclare.html" rel="prev" title="copyclare package"/>
+</head>
+<body class="antialiased text-gray scroll-smooth">
+<div class="h-screen xl:grid xl:grid-layout" data-action="keydown@window-&gt;search#focus" data-controller="sidebar search" id="page">
+<a class="block text-xl bg-white py-4 z-20 absolute top-0 h-14 inset-x-0 text-center transform -translate-y-full focus:translate-y-0 focus:outline-none transition-transform duration-75" href="#copyclare-data-package" title="Skip navigation links">Skip to content</a>
+<header class="grid-area-header z-10 h-14">
+<div class="bg-gray-dark shadow-md flex items-center h-full xl:px-2 relative"><div class="flex items-center">
+<button class="xl:hidden h-14 w-14 leading-14 text-gray-100 hover:bg-gray-700 hover:text-brand focus:outline-none focus:bg-gray-700 focus:text-brand" data-action="sidebar#open" data-sidebar-target="hamburger">
+<span class="sr-only">Open navigation menu</span>
+<svg aria-hidden="true" class="fill-current h-8 w-8" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+</button><a aria-label="Back to homepage" class="hover:bg-gray-700 focus:bg-gray-700 focus:outline-none tooltipped tooltipped-sw" href="../index.html"><span class="hidden lg:inline-block shrink-0 font-medium text-gray-100 mx-5 leading-14 tracking-wider">CopyClare  documentation</span>
+</a></div><div class="flex justify-end items-center flex-1"><form action="../search.html" class="flex print:hidden justify-between items-center leading-14 md:ml-4 bg-gray-dark text-gray-300 focus-within:bg-gray-50 focus-within:text-gray-800 focus-within:absolute focus-within:inset-x-0 focus-within:top-0 md:focus-within:w-full md:focus-within:static" data-action="click-&gt;search#focusSearchInput" id="searchbox" method="get">
+<button aria-label="Get search results" class="text-inherit h-14 w-14" tabindex="-1">
+<svg aria-hidden="true" class="fill-current stroke-current h-8 w-8" stroke-width="0.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+</button>
+<input aria-label="Search the docs" class="pr-2 bg-transparent text-inherit focus:outline-none w-0 md:w-auto focus:w-full transition-all duration-100" data-search-target="searchInput" id="search-input" name="q" placeholder="Search the docs" type="search"/>
+</form></div>
+</div>
+</header>
+<aside class="grid-area-sidebar h-full fixed xl:relative inset-y-0 left-0 z-20 xl:z-0 print:hidden overflow-y-auto transition-all transform transform-gpu -translate-x-full opacity-0 duration-300 xl:translate-x-0 xl:opacity-100" data-sidebar-target="sidebar">
+<nav class="h-full overflow-y-auto bg-white text-gray-600 pt-8 flex flex-col" role="navigation">
+<div class="nav-toc flex-1 pl-6"><p class="caption" role="heading"><span class="caption-text">CopyClare</span></p>
+<ul class="current">
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../requirements.html">Requirements</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../requirements.html#project-background">Project background</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../requirements.html#client-introduction">Client introduction</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../requirements.html#project-goals">Project goals</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../requirements.html#requirement-gathering">Requirement gathering</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../requirements.html#personas">Personas</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../requirements.html#use-cases">Use cases</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../requirements.html#moscow-requirement-list">MoSCoW requirement list</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../research.html">Research</a></div></li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../algorithms.html">Algorithms</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../algorithms.html#models">Models</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../algorithms.html#data">Data</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../algorithms.html#experiments">Experiments</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../algorithms.html#discussions">Discussions</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../algorithms.html#conclusion">Conclusion</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../algorithms.html#references">References</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../ui-design.html">UI Design</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../ui-design.html#design-requirements">Design Requirements</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../ui-design.html#ui-sketches">UI Sketches</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../ui-design.html#feedback-ui-mockup">Feedback &amp; UI Mockup</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../ui-design.html#final-changes">Final changes</a></div></li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../system-design.html">System Design</a></div></li>
+<li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../implementation.html">Implementation</a></div></li>
+<li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../testing.html">Testing</a></div></li>
+<li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../evaluation.html">Evaluation</a></div></li>
+<li class="toctree-l1 current expanded"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation.html">Documentation</a></div><ul class="current">
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/getting-started.html">Getting Started</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/getting-started.html#installation">Installation</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/getting-started.html#running-the-code">Running the code</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/getting-started.html#project-structure">Project Structure</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/getting-started.html#data">Data</a></div></li>
+</ul>
+</li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/compilation.html">Compilation</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/sphinx-docs.html">Sphinx Documentation</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/sphinx-docs.html#docs-overview">Docs Overview</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/sphinx-docs.html#installing-requirements">Installing requirements</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/sphinx-docs.html#building-documentation">Building documentation</a></div></li>
+</ul>
+</li>
+<li class="toctree-l2 current expanded"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.html">copyclare package</a></div><ul class="current">
+<li class="toctree-l3 current expanded"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.html#subpackages">Subpackages</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.html#submodules">Submodules</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.html#module-copyclare.app">copyclare.app module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.html#module-copyclare.common">copyclare.common module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.html#module-copyclare">Module contents</a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices.html">Appendices</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices/blog.html">Blog</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices/monthly-video.html">Monthly Videos</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices/legal.html">Legal</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices/legal.html#gdpr-and-privacy-of-data-statement">GDPR and Privacy of Data Statement</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices/legal.html#licenses-and-intellectual-property">Licenses and Intellectual Property</a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<button class="text-4xl text-gray-800 p-4 bottom-0 hover:text-brand xl:hidden focus:text-brand self-center" data-action="" title="Close navigation menu">
+<span class="sr-only">Close navigation menu</span>
+<svg aria-hidden="true" class="fill-current stroke-current h-6 w-6" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+</aside>
+<main class="px-4 xl:ml-fluid grid-area-main overflow-y-auto flex flex-col h-full mx-0 md:mx-auto xl:mr-0" data-action="scroll-&gt;scroll#showButton" data-controller="scroll"><article class="flex-1" role="main">
+<section id="copyclare-data-package">
+<h1>copyclare.data package<a class="headerlink" href="#copyclare-data-package" title="Permalink to this headline"><span>#</span></a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline"><span>#</span></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="copyclare.data.objects.html">copyclare.data.objects package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="copyclare.data.objects.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copyclare.data.objects.html#module-copyclare.data.objects.attempt">copyclare.data.objects.attempt module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copyclare.data.objects.html#module-copyclare.data.objects.exercises">copyclare.data.objects.exercises module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copyclare.data.objects.html#module-copyclare.data.objects.tag">copyclare.data.objects.tag module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="copyclare.data.objects.html#module-copyclare.data.objects">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline"><span>#</span></a></h2>
+</section>
+<section id="module-copyclare.data.database">
+<span id="copyclare-data-database-module"></span><h2>copyclare.data.database module<a class="headerlink" href="#module-copyclare.data.database" title="Permalink to this headline"><span>#</span></a></h2>
+<p>database.py</p>
+<p>copyclare.data.Database</p>
+<p>Our database module that provides and interface to our SQLITE database</p>
+<p>This module allows executing sctipts that are defined in a sql directory</p>
+<p>you can reference sql directory in the code by using <code class="docutils literal notranslate">SQL_DIR</code>.</p>
+<div class="code-wrapper" data-controller="code">
+<div class="code-header">
+<span class="code-lang">python</span></div>
+<div class="highlight"><pre><code><span class="c1"># sample usage:</span>
+<span class="kn">from</span> <span class="nn">copyclare.data</span> <span class="kn">import</span> <span class="n">SQL_DIR</span>
+
+<span class="c1"># SQL_DIR is a string containing the absulute path to our SQL queries.</span>
+</code></pre></div></div>
+<dl class="py class code-definition">
+<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.database.Database">
+<em class="property">class<span class="w"> </span></em><code class="sig-prename descclassname">copyclare.data.database.</code><code class="sig-name descname">Database</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">db_file</span></em><span class="sig-paren">)</span><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.database.Database" title="Permalink to this definition"><span>#</span></a></dt>
+<dd class="panel">
+<p>Bases: <code class="xref py py-class docutils literal notranslate">object</code></p>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.add_attempt">
+<code class="sig-name descname">add_attempt</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">attempt</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.add_attempt" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.add_exercise">
+<code class="sig-name descname">add_exercise</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">exercise</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.add_exercise" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.add_tag">
+<code class="sig-name descname">add_tag</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.add_tag" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.add_tag_to_exercise">
+<code class="sig-name descname">add_tag_to_exercise</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">exercise</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.add_tag_to_exercise" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.close">
+<code class="sig-name descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.close" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.delete">
+<code class="sig-name descname">delete</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">table_name</span></em>, <em class="sig-param"><span class="n">key_name</span></em>, <em class="sig-param"><span class="n">key</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.delete" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.get_all_attempts">
+<code class="sig-name descname">get_all_attempts</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_all_attempts" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.database.Database.get_all_exercises">
+<code class="sig-name descname">get_all_exercises</code><span class="sig-paren">(</span><span class="sig-paren">)</span><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.database.Database.get_all_exercises" title="Permalink to this definition"><span>#</span></a></dt>
+<dd class="panel">
+<p>Returns a list of all exercise objects</p>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.get_all_tags">
+<code class="sig-name descname">get_all_tags</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_all_tags" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.get_attempt_in_exercise">
+<code class="sig-name descname">get_attempt_in_exercise</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_attempt_in_exercise" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.get_exercise_name_and_desc_by_ID">
+<code class="sig-name descname">get_exercise_name_and_desc_by_ID</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">id</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_exercise_name_and_desc_by_ID" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.database.Database.get_exercise_tags">
+<code class="sig-name descname">get_exercise_tags</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">exercise</span></em><span class="sig-paren">)</span><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.database.Database.get_exercise_tags" title="Permalink to this definition"><span>#</span></a></dt>
+<dd class="panel">
+<p>Given the exercise id returns a list of tag objects</p>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.get_exercises_by_tag">
+<code class="sig-name descname">get_exercises_by_tag</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_exercises_by_tag" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.get_one_attempt_by_ID">
+<code class="sig-name descname">get_one_attempt_by_ID</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">id</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_one_attempt_by_ID" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.Database.get_one_exercise_by_ID">
+<code class="sig-name descname">get_one_exercise_by_ID</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">id</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_one_exercise_by_ID" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+</dd></dl>
+<dl class="py function code-definition">
+<dt class="sig sig-object py" id="copyclare.data.database.main">
+<code class="sig-prename descclassname">copyclare.data.database.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.main" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+</section>
+<section id="module-copyclare.data.exporter">
+<span id="copyclare-data-exporter-module"></span><h2>copyclare.data.exporter module<a class="headerlink" href="#module-copyclare.data.exporter" title="Permalink to this headline"><span>#</span></a></h2>
+<dl class="py class code-definition">
+<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.exporter.DocumentWriter">
+<em class="property">class<span class="w"> </span></em><code class="sig-prename descclassname">copyclare.data.exporter.</code><code class="sig-name descname">DocumentWriter</code><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.exporter.DocumentWriter" title="Permalink to this definition"><span>#</span></a></dt>
+<dd class="panel">
+<p>Bases: <code class="xref py py-class docutils literal notranslate">object</code></p>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.exporter.DocumentWriter.add_name_and_description">
+<code class="sig-name descname">add_name_and_description</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">exercise_info</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.exporter.DocumentWriter.add_name_and_description" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.exporter.DocumentWriter.add_qualitative_section">
+<code class="sig-name descname">add_qualitative_section</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">qualitative_data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.exporter.DocumentWriter.add_qualitative_section" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.exporter.DocumentWriter.add_quantitative_section">
+<code class="sig-name descname">add_quantitative_section</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">quantitative_data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.exporter.DocumentWriter.add_quantitative_section" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.exporter.DocumentWriter.create_document">
+<code class="sig-name descname">create_document</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">saveAs</span></em>, <em class="sig-param"><span class="n">export_title</span></em>, <em class="sig-param"><span class="n">exercise_info</span></em>, <em class="sig-param"><span class="n">quantitative_data</span></em>, <em class="sig-param"><span class="n">qualitative_data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.exporter.DocumentWriter.create_document" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+</dd></dl>
+<dl class="py class code-definition">
+<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.exporter.Exporter">
+<em class="property">class<span class="w"> </span></em><code class="sig-prename descclassname">copyclare.data.exporter.</code><code class="sig-name descname">Exporter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.exporter.Exporter" title="Permalink to this definition"><span>#</span></a></dt>
+<dd class="panel">
+<p>Bases: <code class="xref py py-class docutils literal notranslate">object</code></p>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.exporter.Exporter.export">
+<code class="sig-name descname">export</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">saveAs</span></em>, <em class="sig-param"><span class="n">attempt_id</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.exporter.Exporter.export" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+<dl class="py method code-definition">
+<dt class="sig sig-object py" id="copyclare.data.exporter.Exporter.get_data">
+<code class="sig-name descname">get_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">attempt</span></em>, <em class="sig-param"><span class="n">exercise_info</span></em>, <em class="sig-param"><span class="n">quantitative_data</span></em>, <em class="sig-param"><span class="n">qualitative_data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.exporter.Exporter.get_data" title="Permalink to this definition"><span>#</span></a></dt>
+<dd>
+</dd></dl>
+</dd></dl>
+</section>
+<section id="module-copyclare.data">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-copyclare.data" title="Permalink to this headline"><span>#</span></a></h2>
+<p>Data module</p>
+<p>Provides functionality to manage copyclare data. Defines global variables
+to access commonly used paths, provides the database, and data objects interfaces.
+Has functions to export the data from the database as well.</p>
+</section>
+</section>
+</article>
+<footer>
+<div class="mt-20 mb-4 text-sm text-gray-700">© 2022, CopyClare - Made with <a href="https://www.sphinx-doc.org">Sphinx 4.4.0</a></div>
+</footer><button aria-label="Scroll to top" class="fixed bottom-0 right-0 p-2 m-4 z-10 rounded-full bg-gray-700 text-white opacity-0 transition-opacity duration-1000 pointer-events-none hover:bg-gray-300 hover:text-link focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-gray-200 focus:text-link tooltipped tooltipped-nw" data-action="scroll#scrollToTop" data-scroll-target="scrollToTop">
+<svg class="fill-current stroke-current h-8" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
+</svg>
+</button></main>
+<button class="fixed bottom-0 right-0 z-20 opacity-0 p-4 m-4 tracking-wide bg-gray-900 text-gray-100 transition transform transform-gpu duration-500 translate-y-full" data-action="search#hideSnackbar" data-search-target="snackbar">
+  Clear highlights
+</button><div class="fixed hidden inset-0 bg-black bg-opacity-50" data-action="click-&gt;sidebar#close" data-sidebar-target="screen">
+</div>
+</div>
+<script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+<script src="../_static/jquery.js"></script>
+<script src="../_static/underscore.js"></script>
+<script src="../_static/doctools.js"></script>
+<script src="../_static/design-tabs.js"></script>
+<script src="../_static/theme.1ba02c30758e6036ba31.js"></script>
+</body>
+</html>

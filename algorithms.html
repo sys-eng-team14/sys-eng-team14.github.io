@@ -6,7 +6,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta charset="utf-8"/>
 <meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-<title>Implementation | CopyClare  documentation</title>
+<title>Algorithms | CopyClare  documentation</title>
 <link href="_static/pygments.css" rel="stylesheet"/>
 <link href="_static/theme.33684ae9923d01874503.css" rel="stylesheet"/>
 <link href="_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" rel="stylesheet"/>
@@ -16,12 +16,12 @@
 <link href="_static/custom.css" rel="stylesheet"/>
 <link href="search.html" rel="search" title="Search"/>
 <link href="genindex.html" rel="index" title="Index"/>
-<link href="testing.html" rel="next" title="Testing"/>
-<link href="system-design.html" rel="prev" title="System Design"/>
+<link href="ui-design.html" rel="next" title="UI Design"/>
+<link href="research.html" rel="prev" title="Research"/>
 </head>
 <body class="antialiased text-gray scroll-smooth">
 <div class="h-screen xl:grid xl:grid-layout" data-action="keydown@window-&gt;search#focus" data-controller="sidebar search" id="page">
-<a class="block text-xl bg-white py-4 z-20 absolute top-0 h-14 inset-x-0 text-center transform -translate-y-full focus:translate-y-0 focus:outline-none transition-transform duration-75" href="#implementation" title="Skip navigation links">Skip to content</a>
+<a class="block text-xl bg-white py-4 z-20 absolute top-0 h-14 inset-x-0 text-center transform -translate-y-full focus:translate-y-0 focus:outline-none transition-transform duration-75" href="#algorithms" title="Skip navigation links">Skip to content</a>
 <header class="grid-area-header z-10 h-14">
 <div class="bg-gray-dark shadow-md flex items-center h-full xl:px-2 relative"><div class="flex items-center">
 <button class="xl:hidden h-14 w-14 leading-14 text-gray-100 hover:bg-gray-700 hover:text-brand focus:outline-none focus:bg-gray-700 focus:text-brand" data-action="sidebar#open" data-sidebar-target="hamburger">
@@ -51,13 +51,13 @@
 </ul>
 </li>
 <li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="research.html">Research</a></div></li>
-<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="algorithms.html">Algorithms</a></div><ul>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="algorithms.html#models">Models</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="algorithms.html#data">Data</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="algorithms.html#experiments">Experiments</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="algorithms.html#discussions">Discussions</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="algorithms.html#conclusion">Conclusion</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="algorithms.html#references">References</a></div></li>
+<li class="toctree-l1 current expanded"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="current reference internal" data-action="click-&gt;sidebar#close" href="#">Algorithms</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#models">Models</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#data">Data</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#experiments">Experiments</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#discussions">Discussions</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#conclusion">Conclusion</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#references">References</a></div></li>
 </ul>
 </li>
 <li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="ui-design.html">UI Design</a></div><ul>
@@ -68,7 +68,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="system-design.html">System Design</a></div></li>
-<li class="toctree-l1 current expanded"><div class="nav-link"><a class="current reference internal" data-action="click-&gt;sidebar#close" href="#">Implementation</a></div></li>
+<li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="implementation.html">Implementation</a></div></li>
 <li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="testing.html">Testing</a></div></li>
 <li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="evaluation.html">Evaluation</a></div></li>
 <li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="documentation.html">Documentation</a></div><ul>
@@ -115,8 +115,82 @@
 </nav>
 </aside>
 <main class="px-4 xl:ml-fluid grid-area-main overflow-y-auto flex flex-col h-full mx-0 md:mx-auto xl:mr-0" data-action="scroll-&gt;scroll#showButton" data-controller="scroll"><article class="flex-1" role="main">
-<section id="implementation">
-<h1>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline"><span>#</span></a></h1>
+<section id="algorithms">
+<h1>Algorithms<a class="headerlink" href="#algorithms" title="Permalink to this headline"><span>#</span></a></h1>
+<section id="models">
+<h2>Models<a class="headerlink" href="#models" title="Permalink to this headline"><span>#</span></a></h2>
+<p>Copyclare implements <code class="docutils literal notranslate">Accuracy Model</code>, that allows to compare user’s hand and shoulder motion
+with any exercise video.</p>
+<p>When developing the algorithm we were working with the following goal in mind:</p>
+<ul class="simple">
+<li><p>Each frame we should get an “Accuracy” score that would represent how close
+the user currently is to the desired motion</p></li>
+</ul>
+<p>With that we came up with a following function signature.</p>
+<div class="code-wrapper" data-controller="code">
+<div class="code-header">
+<span class="code-lang">default</span></div>
+<div class="highlight"><pre><code><span class="n">func</span> <span class="n">get_accuracy</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="n">time</span><span class="p">):</span> <span class="o">-&gt;</span> <span class="n">accuracy</span>
+</code></pre></div></div>
+<p>The function takes in an OpenCV frame object, and a time stamp in seconds of the source video.
+The time is important to pass, in order to be able to distinguish between the beginning and the
+end of exercise motion.</p>
+</section>
+<section id="data">
+<h2>Data<a class="headerlink" href="#data" title="Permalink to this headline"><span>#</span></a></h2>
+<p>Our model does not require any training to be done for the algorithm to work.
+We do require to preprocess the exercise videos in advance. We iterate over every
+single frame in the source video, and we use mediapipe to find 3D coordinates of joints.
+We then calculate angles between joints of interest and store everything in a JSON format.
+The JSON stores information about every joint and maps joint angles to timestamps in seconds.</p>
+<p>Sample JSON:</p>
+<div class="code-wrapper" data-controller="code">
+<div class="code-header">
+<span class="code-lang">json</span></div>
+<div class="highlight"><pre><code><span class="p">{</span><span class="w"></span>
+<span class="w">     </span><span class="nt">"left_elbow"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.0"</span><span class="p">:</span><span class="w"> </span><span class="mf">74.07107630335211</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.04"</span><span class="p">:</span><span class="w"> </span><span class="mf">77.29212142432641</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.08"</span><span class="p">:</span><span class="w"> </span><span class="mf">74.27721704527343</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.12"</span><span class="p">:</span><span class="w"> </span><span class="mf">74.56098643827173</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.16"</span><span class="p">:</span><span class="w"> </span><span class="mf">71.83270077427127</span><span class="w"></span>
+<span class="w">     </span><span class="p">},</span><span class="w"></span>
+<span class="w">     </span><span class="nt">"left_shoulder"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.0"</span><span class="p">:</span><span class="w"> </span><span class="mf">50.0279337914335</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.04"</span><span class="p">:</span><span class="w"> </span><span class="mf">46.463919668135865</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.08"</span><span class="p">:</span><span class="w"> </span><span class="mf">47.896393906082416</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.12"</span><span class="p">:</span><span class="w"> </span><span class="mf">49.82595639998958</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.16"</span><span class="p">:</span><span class="w"> </span><span class="mf">49.06242257021765</span><span class="w"></span>
+<span class="w">     </span><span class="p">},</span><span class="w"></span>
+<span class="w">     </span><span class="nt">"right_elbow"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.0"</span><span class="p">:</span><span class="w"> </span><span class="mf">114.61462231825777</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.04"</span><span class="p">:</span><span class="w"> </span><span class="mf">113.73658720932791</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.08"</span><span class="p">:</span><span class="w"> </span><span class="mf">113.41941301622808</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.12"</span><span class="p">:</span><span class="w"> </span><span class="mf">111.46260391447437</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.16"</span><span class="p">:</span><span class="w"> </span><span class="mf">109.5732235702205</span><span class="w"></span>
+<span class="w">     </span><span class="p">},</span><span class="w"></span>
+<span class="w">     </span><span class="nt">"right_shoulder"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.0"</span><span class="p">:</span><span class="w"> </span><span class="mf">148.26033791855784</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.04"</span><span class="p">:</span><span class="w"> </span><span class="mf">151.96533062061914</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.08"</span><span class="p">:</span><span class="w"> </span><span class="mf">150.96903644421906</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.12"</span><span class="p">:</span><span class="w"> </span><span class="mf">149.37786162510116</span><span class="p">,</span><span class="w"></span>
+<span class="w">             </span><span class="nt">"0.16"</span><span class="p">:</span><span class="w"> </span><span class="mf">148.55592024363725</span><span class="w"></span>
+<span class="w">     </span><span class="p">}</span><span class="w"></span>
+<span class="w"> </span><span class="p">}</span><span class="w"></span>
+</code></pre></div></div>
+</section>
+<section id="experiments">
+<h2>Experiments<a class="headerlink" href="#experiments" title="Permalink to this headline"><span>#</span></a></h2>
+</section>
+<section id="discussions">
+<h2>Discussions<a class="headerlink" href="#discussions" title="Permalink to this headline"><span>#</span></a></h2>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline"><span>#</span></a></h2>
+</section>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline"><span>#</span></a></h2>
+</section>
 </section>
 </article>
 <footer>

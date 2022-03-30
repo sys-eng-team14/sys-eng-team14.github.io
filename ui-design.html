@@ -6,7 +6,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta charset="utf-8"/>
 <meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-<title>Implementation | CopyClare  documentation</title>
+<title>UI Design | CopyClare  documentation</title>
 <link href="_static/pygments.css" rel="stylesheet"/>
 <link href="_static/theme.33684ae9923d01874503.css" rel="stylesheet"/>
 <link href="_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" rel="stylesheet"/>
@@ -16,12 +16,12 @@
 <link href="_static/custom.css" rel="stylesheet"/>
 <link href="search.html" rel="search" title="Search"/>
 <link href="genindex.html" rel="index" title="Index"/>
-<link href="testing.html" rel="next" title="Testing"/>
-<link href="system-design.html" rel="prev" title="System Design"/>
+<link href="system-design.html" rel="next" title="System Design"/>
+<link href="algorithms.html" rel="prev" title="Algorithms"/>
 </head>
 <body class="antialiased text-gray scroll-smooth">
 <div class="h-screen xl:grid xl:grid-layout" data-action="keydown@window-&gt;search#focus" data-controller="sidebar search" id="page">
-<a class="block text-xl bg-white py-4 z-20 absolute top-0 h-14 inset-x-0 text-center transform -translate-y-full focus:translate-y-0 focus:outline-none transition-transform duration-75" href="#implementation" title="Skip navigation links">Skip to content</a>
+<a class="block text-xl bg-white py-4 z-20 absolute top-0 h-14 inset-x-0 text-center transform -translate-y-full focus:translate-y-0 focus:outline-none transition-transform duration-75" href="#ui-design" title="Skip navigation links">Skip to content</a>
 <header class="grid-area-header z-10 h-14">
 <div class="bg-gray-dark shadow-md flex items-center h-full xl:px-2 relative"><div class="flex items-center">
 <button class="xl:hidden h-14 w-14 leading-14 text-gray-100 hover:bg-gray-700 hover:text-brand focus:outline-none focus:bg-gray-700 focus:text-brand" data-action="sidebar#open" data-sidebar-target="hamburger">
@@ -60,15 +60,15 @@
 <li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="algorithms.html#references">References</a></div></li>
 </ul>
 </li>
-<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="ui-design.html">UI Design</a></div><ul>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="ui-design.html#design-requirements">Design Requirements</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="ui-design.html#ui-sketches">UI Sketches</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="ui-design.html#feedback-ui-mockup">Feedback &amp; UI Mockup</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="ui-design.html#final-changes">Final changes</a></div></li>
+<li class="toctree-l1 current expanded"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="current reference internal" data-action="click-&gt;sidebar#close" href="#">UI Design</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#design-requirements">Design Requirements</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#ui-sketches">UI Sketches</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#feedback-ui-mockup">Feedback &amp; UI Mockup</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#final-changes">Final changes</a></div></li>
 </ul>
 </li>
 <li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="system-design.html">System Design</a></div></li>
-<li class="toctree-l1 current expanded"><div class="nav-link"><a class="current reference internal" data-action="click-&gt;sidebar#close" href="#">Implementation</a></div></li>
+<li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="implementation.html">Implementation</a></div></li>
 <li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="testing.html">Testing</a></div></li>
 <li class="toctree-l1"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="evaluation.html">Evaluation</a></div></li>
 <li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="documentation.html">Documentation</a></div><ul>
@@ -115,8 +115,83 @@
 </nav>
 </aside>
 <main class="px-4 xl:ml-fluid grid-area-main overflow-y-auto flex flex-col h-full mx-0 md:mx-auto xl:mr-0" data-action="scroll-&gt;scroll#showButton" data-controller="scroll"><article class="flex-1" role="main">
-<section id="implementation">
-<h1>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline"><span>#</span></a></h1>
+<section id="ui-design">
+<h1>UI Design<a class="headerlink" href="#ui-design" title="Permalink to this headline"><span>#</span></a></h1>
+<section id="design-requirements">
+<h2>Design Requirements<a class="headerlink" href="#design-requirements" title="Permalink to this headline"><span>#</span></a></h2>
+<p>Based on our MoSCow list, we need to needed to build a user-centric design. We simply began with the UX/UI requirements.</p>
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>Need the following pages to statisfy our MosCow requirements:</dt><dd><ul class="simple">
+<li><p>Home page</p></li>
+<li><p>Exercises page</p></li>
+<li><p>Analysis page</p></li>
+<li><p>Profile page</p></li>
+<li><p>Settings page (optional)</p></li>
+<li><p>Video trimmer page (optional)</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Big buttons for the UI to increase usabilty.</p></li>
+<li><p>Simplified user experience for the user as they may not have the capacity/patience to thoroughly understand the application</p></li>
+</ol>
+<p>Throughout our development of the UI, we regularly met with our clients and a team of NeuroPhysiotherapy Masters students and their supervisor to enhance our designs.</p>
+<p>The 3 main Usabilty Goals we focused on were:</p>
+<ol class="arabic simple">
+<li><p>Learnabilty</p></li>
+<li><p>Memorability</p></li>
+<li><p>Utility</p></li>
+</ol>
+<p>You will see how we have incorporated our understanding of HCI to our work on CopyClare’s UX &amp; UI.</p>
+</section>
+<section id="ui-sketches">
+<h2>UI Sketches<a class="headerlink" href="#ui-sketches" title="Permalink to this headline"><span>#</span></a></h2>
+<p>Here are our initial sketches for CopyClare:</p>
+<img alt="Very first UI sketch of home page" src="_images/sketch1-home.jpg"/>
+<img alt="Very first UI sketch of exercise page" src="_images/sketch1-exercise.jpg"/>
+<p>The designs were inspired by Netflix and how users can find the right exercise and begin their physiotherapy. However, we realized that it is very difficult to implement using PyQT5. Therefore we need to draft another version of the app.</p>
+<img alt="Very first UI sketch of exercise page" src="_images/sketch2-all-pages.jpg"/>
+<p>With this design, we were able to accomplish our usablity goals:</p>
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>Learnabilty</dt><dd><ul class="simple">
+<li><p>There are only 4 core pages to the application (home, exercise, history, and analysis).</p></li>
+<li><p>The menu bar on the left allows for the user to go to any of the pages the app offers</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Memorability</dt><dd><ul class="simple">
+<li><p>Since there are only a few core pages that are well connected, the user expercies would be memorable</p></li>
+<li><p>The iconography is very clear with distinct colors and easy to understand</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Utility</dt><dd><ul class="simple">
+<li><p>All the functionality that we have implemented from our MoSCow list, have very simple and elegant UI.</p></li>
+<li><p>The buttons and graphs that we show are very carefully placed to help the user to actually use the features</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</section>
+<section id="feedback-ui-mockup">
+<h2>Feedback &amp; UI Mockup<a class="headerlink" href="#feedback-ui-mockup" title="Permalink to this headline"><span>#</span></a></h2>
+<p>Our conversations with our clients and the NeuroPhysiotherapy team has led us to modify our sketches. Here is the high fidelity design of our updated designs: <a class="reference external" href="https://cheryl237771.invisionapp.com/console/share/FAJ4M6HG3B7/881016074" rel="nofollow noopener">https://cheryl237771.invisionapp.com/console/share/FAJ4M6HG3B7/881016074<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p>
+<img alt="Invision mockup of home page" src="_images/mockup-home.png"/>
+<img alt="Invision mockup of exercise page" src="_images/mockup-exercise.png"/>
+<img alt="Invision mockup of history page" src="_images/mockup-history.png"/>
+<img alt="Invision mockup of analysis page" src="_images/mockup-analysis.png"/>
+</section>
+<section id="final-changes">
+<h2>Final changes<a class="headerlink" href="#final-changes" title="Permalink to this headline"><span>#</span></a></h2>
+<p>As we are implementing our UI, we have had to make subtle changes to the designs (such as color scheme, additional buttons, etc.) to make room for additional features that the client and the NeuroPhysiotherapy team requested</p>
+</section>
 </section>
 </article>
 <footer>
