@@ -6,7 +6,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta charset="utf-8"/>
 <meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-<title>copyclare.data package | CopyClare  documentation</title>
+<title>Deployment Manual | CopyClare  documentation</title>
 <link href="../_static/pygments.css" rel="stylesheet"/>
 <link href="../_static/theme.33684ae9923d01874503.css" rel="stylesheet"/>
 <link href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" rel="stylesheet"/>
@@ -16,12 +16,12 @@
 <link href="../_static/custom.css" rel="stylesheet"/>
 <link href="../search.html" rel="search" title="Search"/>
 <link href="../genindex.html" rel="index" title="Index"/>
-<link href="copyclare.data.objects.html" rel="next" title="Objects Submodule"/>
-<link href="copyclare.html" rel="prev" title="Copyclare package"/>
+<link href="blog.html" rel="next" title="Blog"/>
+<link href="user-manual.html" rel="prev" title="User Manual"/>
 </head>
 <body class="antialiased text-gray scroll-smooth">
 <div class="h-screen xl:grid xl:grid-layout" data-action="keydown@window-&gt;search#focus" data-controller="sidebar search" id="page">
-<a class="block text-xl bg-white py-4 z-20 absolute top-0 h-14 inset-x-0 text-center transform -translate-y-full focus:translate-y-0 focus:outline-none transition-transform duration-75" href="#copyclare-data-package" title="Skip navigation links">Skip to content</a>
+<a class="block text-xl bg-white py-4 z-20 absolute top-0 h-14 inset-x-0 text-center transform -translate-y-full focus:translate-y-0 focus:outline-none transition-transform duration-75" href="#deployment-manual" title="Skip navigation links">Skip to content</a>
 <header class="grid-area-header z-10 h-14">
 <div class="bg-gray-dark shadow-md flex items-center h-full xl:px-2 relative"><div class="flex items-center">
 <button class="xl:hidden h-14 w-14 leading-14 text-gray-100 hover:bg-gray-700 hover:text-brand focus:outline-none focus:bg-gray-700 focus:text-brand" data-action="sidebar#open" data-sidebar-target="hamburger">
@@ -94,7 +94,7 @@
 <li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../evaluation.html#future-work">Future work</a></div></li>
 </ul>
 </li>
-<li class="toctree-l1 current expanded"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation.html">Documentation</a></div><ul class="current">
+<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation.html">Documentation</a></div><ul>
 <li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/getting-started.html">Getting Started</a></div><ul>
 <li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/getting-started.html#installation">Installation</a></div></li>
 <li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/getting-started.html#running-the-code">Running the code</a></div></li>
@@ -108,72 +108,72 @@
 <li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../documentation/sphinx-docs.html#building-documentation">Building documentation</a></div></li>
 </ul>
 </li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.html">Copyclare package</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.html#module-copyclare.app">App module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.html#module-copyclare.common">copyclare.common module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.html#module-copyclare.config">copyclare.config module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.html#module-copyclare.ui_element">copyclare.ui_element module</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.html">Copyclare package</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.html#module-copyclare.app">App module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.html#module-copyclare.common">copyclare.common module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.html#module-copyclare.config">copyclare.config module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.html#module-copyclare.ui_element">copyclare.ui_element module</a></div></li>
 </ul>
 </li>
-<li class="toctree-l2 current expanded"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="current reference internal" data-action="click-&gt;sidebar#close" href="#">copyclare.data package</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#subpackages">Subpackages</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#submodules">Submodules</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#module-copyclare.data.database">copyclare.data.database module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#module-copyclare.data.exporter">copyclare.data.exporter module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#module-copyclare.data">Module contents</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.data.html">copyclare.data package</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.data.html#subpackages">Subpackages</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.data.html#submodules">Submodules</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.data.html#module-copyclare.data.database">copyclare.data.database module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.data.html#module-copyclare.data.exporter">copyclare.data.exporter module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.data.html#module-copyclare.data">Module contents</a></div></li>
 </ul>
 </li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.model.html">copyclare.model package</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.model.html#submodules">Submodules</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.model.html#module-copyclare.model.accuracy_v2">copyclare.model.accuracy_v2 module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.model.html#module-copyclare.model.pose_module">copyclare.model.pose_module module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.model.html#module-copyclare.model">Module contents</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.model.html">copyclare.model package</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.model.html#submodules">Submodules</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.model.html#module-copyclare.model.accuracy_v2">copyclare.model.accuracy_v2 module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.model.html#module-copyclare.model.pose_module">copyclare.model.pose_module module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.model.html#module-copyclare.model">Module contents</a></div></li>
 </ul>
 </li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.pages.html">copyclare.pages package</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.pages.html#submodules">Submodules</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.pages.html#module-copyclare.pages.analysis">copyclare.pages.analysis module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.pages.html#module-copyclare.pages.exercise">copyclare.pages.exercise module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.pages.html#module-copyclare.pages.home">copyclare.pages.home module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.pages.html#module-copyclare.pages.landing">copyclare.pages.landing module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.pages.html#module-copyclare.pages.not_found">copyclare.pages.not_found module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.pages.html#module-copyclare.pages.profile">copyclare.pages.profile module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.pages.html#module-copyclare.pages.video_addition">copyclare.pages.video_addition module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.pages.html#module-copyclare.pages">Module contents</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.pages.html">copyclare.pages package</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.pages.html#submodules">Submodules</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.pages.html#module-copyclare.pages.analysis">copyclare.pages.analysis module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.pages.html#module-copyclare.pages.exercise">copyclare.pages.exercise module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.pages.html#module-copyclare.pages.home">copyclare.pages.home module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.pages.html#module-copyclare.pages.landing">copyclare.pages.landing module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.pages.html#module-copyclare.pages.not_found">copyclare.pages.not_found module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.pages.html#module-copyclare.pages.profile">copyclare.pages.profile module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.pages.html#module-copyclare.pages.video_addition">copyclare.pages.video_addition module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.pages.html#module-copyclare.pages">Module contents</a></div></li>
 </ul>
 </li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.widgets.html">copyclare.widgets package</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.widgets.html#submodules">Submodules</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.widgets.html#module-copyclare.widgets.banner">copyclare.widgets.banner module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.widgets.html#module-copyclare.widgets.history_card">copyclare.widgets.history_card module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.widgets.html#module-copyclare.widgets.past_attempts_banner">copyclare.widgets.past_attempts_banner module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.widgets.html#module-copyclare.widgets.progress_banner">copyclare.widgets.progress_banner module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.widgets.html#module-copyclare.widgets.progress_chart">copyclare.widgets.progress_chart module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.widgets.html#module-copyclare.widgets.progress_chart_graph">copyclare.widgets.progress_chart_graph module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.widgets.html#module-copyclare.widgets.tutorial_popup">copyclare.widgets.tutorial_popup module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.widgets.html#module-copyclare.widgets.video_card">copyclare.widgets.video_card module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.widgets.html#module-copyclare.widgets.video_card_my_ex">copyclare.widgets.video_card_my_ex module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.widgets.html#module-copyclare.widgets">Module contents</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.widgets.html">copyclare.widgets package</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.widgets.html#submodules">Submodules</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.widgets.html#module-copyclare.widgets.banner">copyclare.widgets.banner module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.widgets.html#module-copyclare.widgets.history_card">copyclare.widgets.history_card module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.widgets.html#module-copyclare.widgets.past_attempts_banner">copyclare.widgets.past_attempts_banner module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.widgets.html#module-copyclare.widgets.progress_banner">copyclare.widgets.progress_banner module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.widgets.html#module-copyclare.widgets.progress_chart">copyclare.widgets.progress_chart module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.widgets.html#module-copyclare.widgets.progress_chart_graph">copyclare.widgets.progress_chart_graph module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.widgets.html#module-copyclare.widgets.tutorial_popup">copyclare.widgets.tutorial_popup module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.widgets.html#module-copyclare.widgets.video_card">copyclare.widgets.video_card module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.widgets.html#module-copyclare.widgets.video_card_my_ex">copyclare.widgets.video_card_my_ex module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.widgets.html#module-copyclare.widgets">Module contents</a></div></li>
 </ul>
 </li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.video.html">copyclare.video package</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.video.html#submodules">Submodules</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.video.html#module-copyclare.video.camera">copyclare.video.camera module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.video.html#module-copyclare.video.thread_manager">copyclare.video.thread_manager module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.video.html#module-copyclare.video.video">copyclare.video.video module</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="copyclare.video.html#module-copyclare.video">Module contents</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.video.html">copyclare.video package</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.video.html#submodules">Submodules</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.video.html#module-copyclare.video.camera">copyclare.video.camera module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.video.html#module-copyclare.video.thread_manager">copyclare.video.thread_manager module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.video.html#module-copyclare.video.video">copyclare.video.video module</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../api/copyclare.video.html#module-copyclare.video">Module contents</a></div></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices.html">Appendices</a></div><ul>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices/user-manual.html">User Manual</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices/deploy.html">Deployment Manual</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices/blog.html">Blog</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices/monthly-video.html"><svg aria-hidden="true" class="sd-octicon sd-octicon-device-camera-video" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M16 3.75a.75.75 0 00-1.136-.643L11 5.425V4.75A1.75 1.75 0 009.25 3h-7.5A1.75 1.75 0 000 4.75v6.5C0 12.216.784 13 1.75 13h7.5A1.75 1.75 0 0011 11.25v-.675l3.864 2.318A.75.75 0 0016 12.25v-8.5zm-5 5.075l3.5 2.1v-5.85l-3.5 2.1v1.65zM9.5 6.75v-2a.25.25 0 00-.25-.25h-7.5a.25.25 0 00-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-4.5z" fill-rule="evenodd"></path></svg> Monthly Videos</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices/legal.html"><svg aria-hidden="true" class="sd-octicon sd-octicon-law" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.869.23l-1.288.737A.25.25 0 013.984 3H1.75a.75.75 0 000 1.5h.428L.066 9.192a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.514 3.514 0 00.686.45A4.492 4.492 0 003 11c.88 0 1.556-.22 2.023-.454a3.515 3.515 0 00.686-.45l.045-.04.016-.015.006-.006.002-.002.001-.002L5.25 9.5l.53.53a.75.75 0 00.154-.838L3.822 4.5h.162c.305 0 .604-.08.869-.23l1.289-.737a.25.25 0 01.124-.033h.984V13h-2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-2.5V3.5h.984a.25.25 0 01.124.033l1.29.736c.264.152.563.231.868.231h.162l-2.112 4.692a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.517 3.517 0 00.686.45A4.492 4.492 0 0013 11c.88 0 1.556-.22 2.023-.454a3.512 3.512 0 00.686-.45l.045-.04.01-.01.006-.005.006-.006.002-.002.001-.002-.529-.531.53.53a.75.75 0 00.154-.838L13.823 4.5h.427a.75.75 0 000-1.5h-2.234a.25.25 0 01-.124-.033l-1.29-.736A1.75 1.75 0 009.735 2H8.75V.75zM1.695 9.227c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327l-1.305 2.9zm10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327l-1.305 2.9z" fill-rule="evenodd"></path></svg> Legal</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices/legal.html#svg-version-1-1-width-1-0em-height-1-0em-class-sd-octicon-sd-octicon-law-viewbox-0-0-16-16-aria-hidden-true-path-fill-rule-evenodd-d-m8-75-75a-75-75-0-00-1-5-0v2h-984c-305-0-604-08-869-23l-1-288-737a-25-25-0-013-984-3h1-75a-75-75-0-000-1-5h-428l-066-9-192a-75-75-0-00-154-838l-53-53-53-53v-001l-002-002-002-002-006-006-016-015-045-04a3-514-3-514-0-00-686-45a4-492-4-492-0-003-11c-88-0-1-556-22-2-023-454a3-515-3-515-0-00-686-45l-045-04-016-015-006-006-002-002-001-002l5-25-9-5l-53-53a-75-75-0-00-154-838l3-822-4-5h-162c-305-0-604-08-869-23l1-289-737a-25-25-0-01-124-033h-984v13h-2-5a-75-75-0-000-1-5h6-5a-75-75-0-000-1-5h-2-5v3-5h-984a-25-25-0-01-124-033l1-29-736c-264-152-563-231-868-231h-162l-2-112-4-692a-75-75-0-00-154-838l-53-53-53-53v-001l-002-002-002-002-006-006-016-015-045-04a3-517-3-517-0-00-686-45a4-492-4-492-0-0013-11c-88-0-1-556-22-2-023-454a3-512-3-512-0-00-686-45l-045-04-01-01-006-005-006-006-002-002-001-002-529-531-53-53a-75-75-0-00-154-838l13-823-4-5h-427a-75-75-0-000-1-5h-2-234a-25-25-0-01-124-033l-1-29-736a1-75-1-75-0-009-735-2h8-75v-75zm1-695-9-227c-285-135-718-273-1-305-273s1-02-138-1-305-273l3-6-327l-1-305-2-9zm10-0c-285-135-718-273-1-305-273s1-02-138-1-305-273l13-6-327l-1-305-2-9z-path-svg-gdpr-and-privacy-of-data-statement"><svg aria-hidden="true" class="sd-octicon sd-octicon-law" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.869.23l-1.288.737A.25.25 0 013.984 3H1.75a.75.75 0 000 1.5h.428L.066 9.192a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.514 3.514 0 00.686.45A4.492 4.492 0 003 11c.88 0 1.556-.22 2.023-.454a3.515 3.515 0 00.686-.45l.045-.04.016-.015.006-.006.002-.002.001-.002L5.25 9.5l.53.53a.75.75 0 00.154-.838L3.822 4.5h.162c.305 0 .604-.08.869-.23l1.289-.737a.25.25 0 01.124-.033h.984V13h-2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-2.5V3.5h.984a.25.25 0 01.124.033l1.29.736c.264.152.563.231.868.231h.162l-2.112 4.692a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.517 3.517 0 00.686.45A4.492 4.492 0 0013 11c.88 0 1.556-.22 2.023-.454a3.512 3.512 0 00.686-.45l.045-.04.01-.01.006-.005.006-.006.002-.002.001-.002-.529-.531.53.53a.75.75 0 00.154-.838L13.823 4.5h.427a.75.75 0 000-1.5h-2.234a.25.25 0 01-.124-.033l-1.29-.736A1.75 1.75 0 009.735 2H8.75V.75zM1.695 9.227c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327l-1.305 2.9zm10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327l-1.305 2.9z" fill-rule="evenodd"></path></svg> GDPR and Privacy of Data Statement</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices/legal.html#svg-version-1-1-width-1-0em-height-1-0em-class-sd-octicon-sd-octicon-law-viewbox-0-0-16-16-aria-hidden-true-path-fill-rule-evenodd-d-m8-75-75a-75-75-0-00-1-5-0v2h-984c-305-0-604-08-869-23l-1-288-737a-25-25-0-013-984-3h1-75a-75-75-0-000-1-5h-428l-066-9-192a-75-75-0-00-154-838l-53-53-53-53v-001l-002-002-002-002-006-006-016-015-045-04a3-514-3-514-0-00-686-45a4-492-4-492-0-003-11c-88-0-1-556-22-2-023-454a3-515-3-515-0-00-686-45l-045-04-016-015-006-006-002-002-001-002l5-25-9-5l-53-53a-75-75-0-00-154-838l3-822-4-5h-162c-305-0-604-08-869-23l1-289-737a-25-25-0-01-124-033h-984v13h-2-5a-75-75-0-000-1-5h6-5a-75-75-0-000-1-5h-2-5v3-5h-984a-25-25-0-01-124-033l1-29-736c-264-152-563-231-868-231h-162l-2-112-4-692a-75-75-0-00-154-838l-53-53-53-53v-001l-002-002-002-002-006-006-016-015-045-04a3-517-3-517-0-00-686-45a4-492-4-492-0-0013-11c-88-0-1-556-22-2-023-454a3-512-3-512-0-00-686-45l-045-04-01-01-006-005-006-006-002-002-001-002-529-531-53-53a-75-75-0-00-154-838l13-823-4-5h-427a-75-75-0-000-1-5h-2-234a-25-25-0-01-124-033l-1-29-736a1-75-1-75-0-009-735-2h8-75v-75zm1-695-9-227c-285-135-718-273-1-305-273s1-02-138-1-305-273l3-6-327l-1-305-2-9zm10-0c-285-135-718-273-1-305-273s1-02-138-1-305-273l13-6-327l-1-305-2-9z-path-svg-licenses-and-intellectual-property"><svg aria-hidden="true" class="sd-octicon sd-octicon-law" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.869.23l-1.288.737A.25.25 0 013.984 3H1.75a.75.75 0 000 1.5h.428L.066 9.192a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.514 3.514 0 00.686.45A4.492 4.492 0 003 11c.88 0 1.556-.22 2.023-.454a3.515 3.515 0 00.686-.45l.045-.04.016-.015.006-.006.002-.002.001-.002L5.25 9.5l.53.53a.75.75 0 00.154-.838L3.822 4.5h.162c.305 0 .604-.08.869-.23l1.289-.737a.25.25 0 01.124-.033h.984V13h-2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-2.5V3.5h.984a.25.25 0 01.124.033l1.29.736c.264.152.563.231.868.231h.162l-2.112 4.692a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.517 3.517 0 00.686.45A4.492 4.492 0 0013 11c.88 0 1.556-.22 2.023-.454a3.512 3.512 0 00.686-.45l.045-.04.01-.01.006-.005.006-.006.002-.002.001-.002-.529-.531.53.53a.75.75 0 00.154-.838L13.823 4.5h.427a.75.75 0 000-1.5h-2.234a.25.25 0 01-.124-.033l-1.29-.736A1.75 1.75 0 009.735 2H8.75V.75zM1.695 9.227c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327l-1.305 2.9zm10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327l-1.305 2.9z" fill-rule="evenodd"></path></svg> Licenses and Intellectual Property</a></div></li>
+<li class="toctree-l1 current expanded"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="../appendices.html">Appendices</a></div><ul class="current">
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="user-manual.html">User Manual</a></div></li>
+<li class="toctree-l2 current expanded"><div class="nav-link"><a class="current reference internal" data-action="click-&gt;sidebar#close" href="#">Deployment Manual</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="blog.html">Blog</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="monthly-video.html"><svg aria-hidden="true" class="sd-octicon sd-octicon-device-camera-video" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M16 3.75a.75.75 0 00-1.136-.643L11 5.425V4.75A1.75 1.75 0 009.25 3h-7.5A1.75 1.75 0 000 4.75v6.5C0 12.216.784 13 1.75 13h7.5A1.75 1.75 0 0011 11.25v-.675l3.864 2.318A.75.75 0 0016 12.25v-8.5zm-5 5.075l3.5 2.1v-5.85l-3.5 2.1v1.65zM9.5 6.75v-2a.25.25 0 00-.25-.25h-7.5a.25.25 0 00-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-4.5z" fill-rule="evenodd"></path></svg> Monthly Videos</a></div></li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="legal.html"><svg aria-hidden="true" class="sd-octicon sd-octicon-law" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.869.23l-1.288.737A.25.25 0 013.984 3H1.75a.75.75 0 000 1.5h.428L.066 9.192a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.514 3.514 0 00.686.45A4.492 4.492 0 003 11c.88 0 1.556-.22 2.023-.454a3.515 3.515 0 00.686-.45l.045-.04.016-.015.006-.006.002-.002.001-.002L5.25 9.5l.53.53a.75.75 0 00.154-.838L3.822 4.5h.162c.305 0 .604-.08.869-.23l1.289-.737a.25.25 0 01.124-.033h.984V13h-2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-2.5V3.5h.984a.25.25 0 01.124.033l1.29.736c.264.152.563.231.868.231h.162l-2.112 4.692a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.517 3.517 0 00.686.45A4.492 4.492 0 0013 11c.88 0 1.556-.22 2.023-.454a3.512 3.512 0 00.686-.45l.045-.04.01-.01.006-.005.006-.006.002-.002.001-.002-.529-.531.53.53a.75.75 0 00.154-.838L13.823 4.5h.427a.75.75 0 000-1.5h-2.234a.25.25 0 01-.124-.033l-1.29-.736A1.75 1.75 0 009.735 2H8.75V.75zM1.695 9.227c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327l-1.305 2.9zm10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327l-1.305 2.9z" fill-rule="evenodd"></path></svg> Legal</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="legal.html#svg-version-1-1-width-1-0em-height-1-0em-class-sd-octicon-sd-octicon-law-viewbox-0-0-16-16-aria-hidden-true-path-fill-rule-evenodd-d-m8-75-75a-75-75-0-00-1-5-0v2h-984c-305-0-604-08-869-23l-1-288-737a-25-25-0-013-984-3h1-75a-75-75-0-000-1-5h-428l-066-9-192a-75-75-0-00-154-838l-53-53-53-53v-001l-002-002-002-002-006-006-016-015-045-04a3-514-3-514-0-00-686-45a4-492-4-492-0-003-11c-88-0-1-556-22-2-023-454a3-515-3-515-0-00-686-45l-045-04-016-015-006-006-002-002-001-002l5-25-9-5l-53-53a-75-75-0-00-154-838l3-822-4-5h-162c-305-0-604-08-869-23l1-289-737a-25-25-0-01-124-033h-984v13h-2-5a-75-75-0-000-1-5h6-5a-75-75-0-000-1-5h-2-5v3-5h-984a-25-25-0-01-124-033l1-29-736c-264-152-563-231-868-231h-162l-2-112-4-692a-75-75-0-00-154-838l-53-53-53-53v-001l-002-002-002-002-006-006-016-015-045-04a3-517-3-517-0-00-686-45a4-492-4-492-0-0013-11c-88-0-1-556-22-2-023-454a3-512-3-512-0-00-686-45l-045-04-01-01-006-005-006-006-002-002-001-002-529-531-53-53a-75-75-0-00-154-838l13-823-4-5h-427a-75-75-0-000-1-5h-2-234a-25-25-0-01-124-033l-1-29-736a1-75-1-75-0-009-735-2h8-75v-75zm1-695-9-227c-285-135-718-273-1-305-273s1-02-138-1-305-273l3-6-327l-1-305-2-9zm10-0c-285-135-718-273-1-305-273s1-02-138-1-305-273l13-6-327l-1-305-2-9z-path-svg-gdpr-and-privacy-of-data-statement"><svg aria-hidden="true" class="sd-octicon sd-octicon-law" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.869.23l-1.288.737A.25.25 0 013.984 3H1.75a.75.75 0 000 1.5h.428L.066 9.192a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.514 3.514 0 00.686.45A4.492 4.492 0 003 11c.88 0 1.556-.22 2.023-.454a3.515 3.515 0 00.686-.45l.045-.04.016-.015.006-.006.002-.002.001-.002L5.25 9.5l.53.53a.75.75 0 00.154-.838L3.822 4.5h.162c.305 0 .604-.08.869-.23l1.289-.737a.25.25 0 01.124-.033h.984V13h-2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-2.5V3.5h.984a.25.25 0 01.124.033l1.29.736c.264.152.563.231.868.231h.162l-2.112 4.692a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.517 3.517 0 00.686.45A4.492 4.492 0 0013 11c.88 0 1.556-.22 2.023-.454a3.512 3.512 0 00.686-.45l.045-.04.01-.01.006-.005.006-.006.002-.002.001-.002-.529-.531.53.53a.75.75 0 00.154-.838L13.823 4.5h.427a.75.75 0 000-1.5h-2.234a.25.25 0 01-.124-.033l-1.29-.736A1.75 1.75 0 009.735 2H8.75V.75zM1.695 9.227c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327l-1.305 2.9zm10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327l-1.305 2.9z" fill-rule="evenodd"></path></svg> GDPR and Privacy of Data Statement</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="legal.html#svg-version-1-1-width-1-0em-height-1-0em-class-sd-octicon-sd-octicon-law-viewbox-0-0-16-16-aria-hidden-true-path-fill-rule-evenodd-d-m8-75-75a-75-75-0-00-1-5-0v2h-984c-305-0-604-08-869-23l-1-288-737a-25-25-0-013-984-3h1-75a-75-75-0-000-1-5h-428l-066-9-192a-75-75-0-00-154-838l-53-53-53-53v-001l-002-002-002-002-006-006-016-015-045-04a3-514-3-514-0-00-686-45a4-492-4-492-0-003-11c-88-0-1-556-22-2-023-454a3-515-3-515-0-00-686-45l-045-04-016-015-006-006-002-002-001-002l5-25-9-5l-53-53a-75-75-0-00-154-838l3-822-4-5h-162c-305-0-604-08-869-23l1-289-737a-25-25-0-01-124-033h-984v13h-2-5a-75-75-0-000-1-5h6-5a-75-75-0-000-1-5h-2-5v3-5h-984a-25-25-0-01-124-033l1-29-736c-264-152-563-231-868-231h-162l-2-112-4-692a-75-75-0-00-154-838l-53-53-53-53v-001l-002-002-002-002-006-006-016-015-045-04a3-517-3-517-0-00-686-45a4-492-4-492-0-0013-11c-88-0-1-556-22-2-023-454a3-512-3-512-0-00-686-45l-045-04-01-01-006-005-006-006-002-002-001-002-529-531-53-53a-75-75-0-00-154-838l13-823-4-5h-427a-75-75-0-000-1-5h-2-234a-25-25-0-01-124-033l-1-29-736a1-75-1-75-0-009-735-2h8-75v-75zm1-695-9-227c-285-135-718-273-1-305-273s1-02-138-1-305-273l3-6-327l-1-305-2-9zm10-0c-285-135-718-273-1-305-273s1-02-138-1-305-273l13-6-327l-1-305-2-9z-path-svg-licenses-and-intellectual-property"><svg aria-hidden="true" class="sd-octicon sd-octicon-law" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.869.23l-1.288.737A.25.25 0 013.984 3H1.75a.75.75 0 000 1.5h.428L.066 9.192a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.514 3.514 0 00.686.45A4.492 4.492 0 003 11c.88 0 1.556-.22 2.023-.454a3.515 3.515 0 00.686-.45l.045-.04.016-.015.006-.006.002-.002.001-.002L5.25 9.5l.53.53a.75.75 0 00.154-.838L3.822 4.5h.162c.305 0 .604-.08.869-.23l1.289-.737a.25.25 0 01.124-.033h.984V13h-2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-2.5V3.5h.984a.25.25 0 01.124.033l1.29.736c.264.152.563.231.868.231h.162l-2.112 4.692a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.517 3.517 0 00.686.45A4.492 4.492 0 0013 11c.88 0 1.556-.22 2.023-.454a3.512 3.512 0 00.686-.45l.045-.04.01-.01.006-.005.006-.006.002-.002.001-.002-.529-.531.53.53a.75.75 0 00.154-.838L13.823 4.5h.427a.75.75 0 000-1.5h-2.234a.25.25 0 01-.124-.033l-1.29-.736A1.75 1.75 0 009.735 2H8.75V.75zM1.695 9.227c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327l-1.305 2.9zm10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327l-1.305 2.9z" fill-rule="evenodd"></path></svg> Licenses and Intellectual Property</a></div></li>
 </ul>
 </li>
 </ul>
@@ -187,207 +187,13 @@
 </nav>
 </aside>
 <main class="px-4 xl:ml-fluid grid-area-main overflow-y-auto flex flex-col h-full mx-0 md:mx-auto xl:mr-0" data-action="scroll-&gt;scroll#showButton" data-controller="scroll"><article class="flex-1" role="main">
-<section id="copyclare-data-package">
-<h1>copyclare.data package<a class="headerlink" href="#copyclare-data-package" title="Permalink to this headline"><span>#</span></a></h1>
-<section id="subpackages">
-<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline"><span>#</span></a></h2>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="copyclare.data.objects.html">Objects Submodule</a></li>
+<section id="deployment-manual">
+<h1>Deployment Manual<a class="headerlink" href="#deployment-manual" title="Permalink to this headline"><span>#</span></a></h1>
+<p>This section is detailed under:</p>
+<ul class="simple">
+<li><p>Documentation &gt; Getting started</p></li>
+<li><p>Implementation &gt; Compilation</p></li>
 </ul>
-</div>
-</section>
-<section id="submodules">
-<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline"><span>#</span></a></h2>
-</section>
-<section id="module-copyclare.data.database">
-<span id="copyclare-data-database-module"></span><h2>copyclare.data.database module<a class="headerlink" href="#module-copyclare.data.database" title="Permalink to this headline"><span>#</span></a></h2>
-<p>Contributors: Adi Bozzhanov, Sree Sanakkayala, Tianhao Chen</p>
-<dl class="py class code-definition">
-<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.database.Database">
-<em class="property">class<span class="w"> </span></em><code class="sig-prename descclassname">copyclare.data.database.</code><code class="sig-name descname">Database</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">db_file</span></em><span class="sig-paren">)</span><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.database.Database" title="Permalink to this definition"><span>#</span></a></dt>
-<dd class="panel">
-<p>Bases: <code class="xref py py-class docutils literal notranslate">object</code></p>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.add_attempt">
-<code class="sig-name descname">add_attempt</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">attempt</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.add_attempt" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.add_exercise">
-<code class="sig-name descname">add_exercise</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">exercise</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.add_exercise" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.add_tag">
-<code class="sig-name descname">add_tag</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.add_tag" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.add_tag_to_exercise">
-<code class="sig-name descname">add_tag_to_exercise</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">exercise</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.add_tag_to_exercise" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.close">
-<code class="sig-name descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.close" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.delete">
-<code class="sig-name descname">delete</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">table_name</span></em>, <em class="sig-param"><span class="n">key_name</span></em>, <em class="sig-param"><span class="n">key</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.delete" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.get_all_attempts">
-<code class="sig-name descname">get_all_attempts</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_all_attempts" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.database.Database.get_all_exercises">
-<code class="sig-name descname">get_all_exercises</code><span class="sig-paren">(</span><span class="sig-paren">)</span><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.database.Database.get_all_exercises" title="Permalink to this definition"><span>#</span></a></dt>
-<dd class="panel">
-<p>Returns a list of all exercise objects</p>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.get_all_tags">
-<code class="sig-name descname">get_all_tags</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_all_tags" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.get_attempt_in_exercise">
-<code class="sig-name descname">get_attempt_in_exercise</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_attempt_in_exercise" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.get_exercise_name_and_desc_by_ID">
-<code class="sig-name descname">get_exercise_name_and_desc_by_ID</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">id</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_exercise_name_and_desc_by_ID" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.database.Database.get_exercise_tags">
-<code class="sig-name descname">get_exercise_tags</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">exercise</span></em><span class="sig-paren">)</span><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.database.Database.get_exercise_tags" title="Permalink to this definition"><span>#</span></a></dt>
-<dd class="panel">
-<p>Given the exercise id returns a list of tag objects</p>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.get_exercises_by_tag">
-<code class="sig-name descname">get_exercises_by_tag</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_exercises_by_tag" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.get_one_attempt_by_ID">
-<code class="sig-name descname">get_one_attempt_by_ID</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">id</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_one_attempt_by_ID" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.get_one_exercise_by_ID">
-<code class="sig-name descname">get_one_exercise_by_ID</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">id</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.get_one_exercise_by_ID" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.Database.remove_tag_from_exercise">
-<code class="sig-name descname">remove_tag_from_exercise</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">exercise</span></em><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.Database.remove_tag_from_exercise" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-</dd></dl>
-<dl class="py function code-definition">
-<dt class="sig sig-object py" id="copyclare.data.database.main">
-<code class="sig-prename descclassname">copyclare.data.database.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#copyclare.data.database.main" title="Permalink to this definition"><span>#</span></a></dt>
-<dd>
-</dd></dl>
-</section>
-<section id="module-copyclare.data.exporter">
-<span id="copyclare-data-exporter-module"></span><h2>copyclare.data.exporter module<a class="headerlink" href="#module-copyclare.data.exporter" title="Permalink to this headline"><span>#</span></a></h2>
-<p>Contributors: Yan Lai, Sree Sanakkayala</p>
-<dl class="py class code-definition">
-<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.exporter.AccuracyGraphExporter">
-<em class="property">class<span class="w"> </span></em><code class="sig-prename descclassname">copyclare.data.exporter.</code><code class="sig-name descname">AccuracyGraphExporter</code><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.exporter.AccuracyGraphExporter" title="Permalink to this definition"><span>#</span></a></dt>
-<dd class="panel">
-<p>Bases: <code class="xref py py-class docutils literal notranslate">object</code></p>
-<dl class="py method code-definition">
-<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.exporter.AccuracyGraphExporter.draw_accuracy_graph">
-<code class="sig-name descname">draw_accuracy_graph</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">session_json</span></em><span class="sig-paren">)</span><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.exporter.AccuracyGraphExporter.draw_accuracy_graph" title="Permalink to this definition"><span>#</span></a></dt>
-<dd class="panel">
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>session_json</strong> (<em>[</em><em>[</em><em>int</em><em>,</em><em>int</em><em>]</em><em>]</em><em>]</em>) – A list of tuples containing timestamps and accuracy for an attempt.</p>
-</dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><p>The plotted graph widget.</p>
-</dd>
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>PlotWidget</p>
-</dd>
-</dl>
-</dd></dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.exporter.AccuracyGraphExporter.export_accuracy_graph">
-<code class="sig-name descname">export_accuracy_graph</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">session_json</span></em>, <em class="sig-param"><span class="n">attempt_id</span></em><span class="sig-paren">)</span><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.exporter.AccuracyGraphExporter.export_accuracy_graph" title="Permalink to this definition"><span>#</span></a></dt>
-<dd class="panel">
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>session_json</strong> (<em>[</em><em>[</em><em>int</em><em>,</em><em>int</em><em>]</em><em>]</em><em>]</em>) – A list of tuples containing timestamps and accuracy for an attempt.</p></li>
-<li><p><strong>attempt_id</strong> (<em>int</em>) – The id of selected attempt.</p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-</dd></dl>
-<dl class="py class code-definition">
-<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.exporter.DocumentWriter">
-<em class="property">class<span class="w"> </span></em><code class="sig-prename descclassname">copyclare.data.exporter.</code><code class="sig-name descname">DocumentWriter</code><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.exporter.DocumentWriter" title="Permalink to this definition"><span>#</span></a></dt>
-<dd class="panel">
-<p>Bases: <code class="xref py py-class docutils literal notranslate">object</code></p>
-<p>This is a helper class build the .docx file based on the inputted data</p>
-<dl class="py method code-definition">
-<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.exporter.DocumentWriter.create_document">
-<code class="sig-name descname">create_document</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">saveAs</span></em>, <em class="sig-param"><span class="n">export_title</span></em>, <em class="sig-param"><span class="n">exercise_info</span></em>, <em class="sig-param"><span class="n">quantitative_data</span></em>, <em class="sig-param"><span class="n">qualitative_data</span></em><span class="sig-paren">)</span><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.exporter.DocumentWriter.create_document" title="Permalink to this definition"><span>#</span></a></dt>
-<dd class="panel">
-<p>the main function to call to create a .docx file</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>saveAs</strong> (<em>_type_</em>) – absolute path of where the file needs to be stored</p></li>
-<li><p><strong>export_title</strong> (<em>_type_</em>) – the title of the document</p></li>
-<li><p><strong>exercise_info</strong> (<em>_type_</em>) – basic info of the exercise</p></li>
-<li><p><strong>quantitative_data</strong> (<em>_type_</em>) – quantitative data of the exercise (see above)</p></li>
-<li><p><strong>qualitative_data</strong> (<em>_type_</em>) – qualitative data of the exercise (see above)</p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-</dd></dl>
-<dl class="py class code-definition">
-<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.exporter.Exporter">
-<em class="property">class<span class="w"> </span></em><code class="sig-prename descclassname">copyclare.data.exporter.</code><code class="sig-name descname">Exporter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.exporter.Exporter" title="Permalink to this definition"><span>#</span></a></dt>
-<dd class="panel">
-<p>Bases: <code class="xref py py-class docutils literal notranslate">object</code></p>
-<p>This class has the functions to gather all of the necessary information
-to from the given database to create a progress report.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>database</strong> – The database from which that data will be exported from</p>
-</dd>
-</dl>
-<dl class="py method code-definition">
-<dt class="sig sig-object py accordion" data-action="click-&gt;collapsible#expandAccordion" data-controller="collapsible" id="copyclare.data.exporter.Exporter.export">
-<code class="sig-name descname">export</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">saveAs</span></em>, <em class="sig-param"><span class="n">attempt_id</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><button aria-expanded="false" aria-label="Expand this section" class="expand-more tooltipped tooltipped-nw" data-action="collapsible#expandMore"><svg aria-hidden="true" pointer-events="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button><a class="headerlink" href="#copyclare.data.exporter.Exporter.export" title="Permalink to this definition"><span>#</span></a></dt>
-<dd class="panel">
-<p>Exports the data from the database to a .docx file.
-:param saveAs: absolute path for where report needs to be saved.
-:param attempt_id: the attempt id of the attempt that needs to be exported.</p>
-<blockquote>
-<div><p>if null, then the tool will export all</p>
-</div></blockquote>
-</dd></dl>
-</dd></dl>
-</section>
-<section id="module-copyclare.data">
-<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-copyclare.data" title="Permalink to this headline"><span>#</span></a></h2>
-<p>Contributors: Adi Bozzhanov</p>
-</section>
 </section>
 </article>
 <footer>
